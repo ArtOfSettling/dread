@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="[dr-editor] Build And Run Debug" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-    <option name="command" value="run --color=always --bin dr-editor --manifest-path applications\dr-editor\Cargo.toml" />
+    <option name="command" value="run --color=always --bin dr-editor --manifest-path $PROJECT_DIR$/applications/dr-editor/Cargo.toml" />
     <option name="workingDirectory" value="file://$PROJECT_DIR$" />
     <envs />
     <option name="emulateTerminal" value="true" />
