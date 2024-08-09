@@ -1,0 +1,15 @@
+[submodule "core/dr-engine/dr-engine"]
+	path = core/dr-engine/dr-engine
+	url = https://github.com/ArtOfSettling/dr-engine.git
+[submodule "core/--force"]
+	path = core/--force
+	url = https://github.com/ArtOfSettling/dr-engine.git
+[submodule "core/dr-engine"]
+	path = core/dr-engine
+	url = https://github.com/ArtOfSettling/dr-engine.git
+[submodule "core/d-runtime"]
+	path = core/d-runtime
+	url = https://github.com/ArtOfSettling/d-runtime.git
+[submodule "applications/dr-editor"]
+	path = applications/dr-editor
+	url = https://github.com/ArtOfSettling/dr-editor.git
