@@ -2,12 +2,19 @@
 
 ## Overview
 
-This package contains all dependencies required to work with the Dread Engine. For now, these are contained within this repository as submodules, eventually this will change, those packages will be published to [crates.io](https://crates.io). 
+This package contains all dependencies required to work with the Dread Engine. For now, these are contained within this repository as submodules, eventually this will change, those packages will be published to [crates.io](https://crates.io).
 
 ## Prerequisites
 
-1. Install CMake
-2. Clone this repository recursively to get all submodules. `git clone --recurse-submodules -j8 https://github.com/ArtOfSettling/dread.git`
+These will be scriptified in the future, but for now, these must be manually installed.
+
+1. Cargo -
+    1. Install [cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) if it is not already installed. `cargo -V` to check if it is installed.
+    1. `cargo -V` to validate installation. This should print the version you have installed, if installation was successful.
+1. CMake - A C/C++ Build System. This is used to build OpenGL (and other C/C++) dependencies.
+    1. Install [CMake](https://cmake.org/download/) if it is not already installed. `cmake --version` to check if it is installed.
+    1. `cmake --version` to validate installation. This should print the version you have installed, if installation was successful.
+1. Clone this repository recursively to get all submodules. `git clone --recurse-submodules https://github.com/ArtOfSettling/dread.git`
 
 ## How to build
 
