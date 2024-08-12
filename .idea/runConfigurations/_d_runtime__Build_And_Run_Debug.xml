@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="[d-runtime] Build And Run Debug" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-    <option name="command" value="run --color=always --bin d-runtime --manifest-path core\d-runtime\Cargo.toml" />
+    <option name="command" value="run --color=always --bin d-runtime --manifest-path $PROJECT_DIR$/core/d-runtime/Cargo.toml" />
     <option name="workingDirectory" value="file://$PROJECT_DIR$" />
     <envs />
     <option name="emulateTerminal" value="true" />
