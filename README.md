@@ -14,6 +14,8 @@ These will be scriptified in the future, but for now, these must be manually ins
 1. CMake - A C/C++ Build System. This is used to build OpenGL (and other C/C++) dependencies.
     1. Install [CMake](https://cmake.org/download/) if it is not already installed. `cmake --version` to check if it is installed.
     1. `cmake --version` to validate installation. This should print the version you have installed, if installation was successful.
+1. The Vulkan SDK, download and install via the [LunarG](https://vulkan.lunarg.com/) page.
+    1. Validate your install (and hardware) by navigating to and running the `{install_directory}/bin/vkcube` application, which should open a window rendering a 3d cube.
 1. Clone this repository recursively to get all submodules. `git clone --recurse-submodules https://github.com/ArtOfSettling/dread.git`
 
 ## How to build
